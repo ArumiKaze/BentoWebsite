@@ -1,0 +1,74 @@
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #DF9B9B;
+    height: 80px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    margin: 0 0 0 30px;
+}
+
+.language {
+    position: relative;
+    margin-right: 30px;
+}
+
+.language img {
+    width: 30px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.language:hover .language-dropdown {
+    display: block;
+}
+
+.language-dropdown {
+    display: none;
+    position: absolute;
+    box-shadow: 0px 0px 8px 4px black;
+    z-index: 1;
+}
+
+.button-option {
+    background-color: #2E4057;
+    color: #f1f1f1;
+    padding: 12px 16px;
+    font-size: 16px;
+    display: block;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 120px;
+}
+
+.button-option:hover {
+    background-color: black;
+}
+
+.button-selected {
+    background-color: #2E4057;
+    color: #f1f1f1;
+    padding: 12px 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 120px;
+}
+
+.button-selected:hover {
+    background-color: black;
+}

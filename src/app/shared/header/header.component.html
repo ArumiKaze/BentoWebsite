@@ -1,0 +1,17 @@
+<div class="header">
+    <h1>Kyaraben US</h1>
+    <div class="navigator">
+        <p>Home</p>
+        <p>About Us</p>
+        <p>Gallery</p>
+        <p>Contact Us</p>
+    </div>
+    <div class="language">
+        <button *ngIf="currLang === 'EN'" type="button" class="button-selected">English <img src="../../../assets/flag_us.jpg"></button>
+        <button *ngIf="currLang === 'JP'" type="button" class="button-selected">Japanese <img src="../../../assets/flag_jp.jpg"></button>
+        <div class="language-dropdown">
+            <button *ngIf="currLang !== 'EN'" type="button" class="button-option">English <img src="../../../assets/flag_us.jpg"></button>
+            <button *ngIf="currLang !== 'JP'" type="button" class="button-option">Japanese <img src="../../../assets/flag_jp.jpg"></button>
+        </div>
+    </div>
+</div>
